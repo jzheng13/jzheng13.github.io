@@ -1,0 +1,152 @@
+﻿/* HTML built-ins */
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+img {
+    clip: inherit;
+}
+
+/* Grid and wrap */
+
+.grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+/* Specifics */
+
+.fa-flag:hover {
+    color: #ef9a9a;
+}
+
+.project {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    min-width: 300px;
+    min-height: 225px;
+    background-position: center;
+    text-align: center;
+}
+
+.proj-desc {
+    display: none;
+    min-height: 225px;
+}
+
+.project:hover {
+    opacity: 0.7;
+}
+
+.project:hover .proj-desc {
+    display: inline-flex;
+    align-items: center;
+    color: black;
+    font-weight: 700;
+    opacity: 1.0;
+}
+
+#iclfyp {
+    background: url('../images/iclfyp.gif') center;
+    background-repeat: no-repeat;
+}
+
+#python-snake {
+    background: url('../images/python-snake.gif') center;
+    background-repeat: no-repeat;
+}
+
+/* Fonts */
+
+.amatic {
+    font-family: 'Amatic SC', cursive;
+}
+
+.cormorant {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Amatic SC */
+
+/* hebrew */
+@font-face {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/amatic-sc/AmaticSC-Regular.ttf'), url(https://fonts.gstatic.com/s/amaticsc/v10/OpbFR1Tmt2r4Z48lwWGNORJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+    unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/amatic-sc/AmaticSC-Regular.ttf'), url(https://fonts.gstatic.com/s/amaticsc/v10/6oAC5EqjVnFivtPX-TgvlRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/amatic-sc/AmaticSC-Regular.ttf'), url(https://fonts.gstatic.com/s/amaticsc/v10/6UByihrsVPWtZ99tNMIgMBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/amatic-sc/AmaticSC-Regular.ttf'), url(https://fonts.gstatic.com/s/amaticsc/v10/DPPfSFKxRTXvae2bKDzp5FtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* Cormorant Garamond */
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/amatic-sc/CormorantGaramond-SemiBold.ttf'), url(https://fonts.gstatic.com/s/cormorantgaramond/v5/EI2hhCO6kSfLAy-Dpd8fd5MXSax1gfRCV1UQv5mrcxg.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/amatic-sc/CormorantGaramond-SemiBold.ttf'), url(https://fonts.gstatic.com/s/cormorantgaramond/v5/EI2hhCO6kSfLAy-Dpd8fd0IRuCegCtpadnF3HXSowSU.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/amatic-sc/CormorantGaramond-SemiBold.ttf'), url(https://fonts.gstatic.com/s/cormorantgaramond/v5/EI2hhCO6kSfLAy-Dpd8fd2sgXD_ww0uiBBq4WdjXBVk.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/amatic-sc/CormorantGaramond-SemiBold.ttf'), url(https://fonts.gstatic.com/s/cormorantgaramond/v5/EI2hhCO6kSfLAy-Dpd8fdzQAQ_YXXHNmahILJeEq070.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/amatic-sc/CormorantGaramond-SemiBold.ttf'), url(https://fonts.gstatic.com/s/cormorantgaramond/v5/EI2hhCO6kSfLAy-Dpd8fdz_Dq57Lo4snLFwBvsf35Hk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
