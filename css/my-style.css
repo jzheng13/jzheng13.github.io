@@ -49,6 +49,10 @@ img {
     opacity: 1.0;
 }
 
+#block-breaker .proj-desc {
+    color: white;
+}
+
 #iclfyp {
     background: url('../images/iclfyp.gif') center;
     background-repeat: no-repeat;
@@ -56,6 +60,11 @@ img {
 
 #python-snake {
     background: url('../images/python-snake.gif') center;
+    background-repeat: no-repeat;
+}
+
+#block-breaker {
+    background: url('../images/block-breaker.gif') center;
     background-repeat: no-repeat;
 }
 
